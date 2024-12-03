@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 30px;
+}
+body{
+  
+background: rgb(242, 242, 242);
+}
+.container{
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.header__link{
+    color: rgb(54, 83, 107);
+font-family: "Public Sans";
+font-size: 15px;
+font-weight: 700;
+line-height: 18px;
+text-decoration: none;
+transition: 0.5s ease-in-out;
+}
+.header__link:hover{
+    color: red;
+}
+.header__btn{
+    max-width: 173px;
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: 10px 10px 25px -100px  black;
+    color: rgb(251, 252, 254);
+    background-color: #ba4270;
+    border: none;
+    padding: 10px 10px;
+    color: #fbfcfe;
+font-family: "Public Sans";
+font-size: 15px;
+font-weight: 700;
+line-height: 18px;
+transition: 0.5s ease-in-out;
+}
+.header__btn:hover{
+    color: yellow;
+}
+.header__burger{
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+.hero__textbox{
+    width: 400px;
+    color: rgb(54, 83, 107);
+ margin: 0 auto;
+    padding-top: 160px;
+    font-size: 50px;
+}
+@media (max-width:615px ) {
+    .header__burger{
+        display: block;
+    }
+    .header__list{
+        display: none;
+    }
+}
+.hero__wrapper{
+    display: flex;
+    justify-content: space-between;
+  
+   
+}
+.wrapper{
+    display: flex;
+}
+.text__box1{
+    max-width: 445px;
+    width: 100%;
+    padding-top: 140px;
+}
+.hero__text1{
+    padding-top: 24px;
+    color: rgb(108, 130, 148);
+}
+.hero__title{
+    color:rgb(54, 83, 107) ;
+}
+@media (max-width:750px) {
+    .wrapper{
+        flex-direction: column-reverse;
+    }
+    .wr{
+        flex-direction: column;
+    }
+    .hero__text{
+        margin: 0 auto;
+    }
+    .hero__title{
+        padding: 0;
+    }
+    .text__box1{
+        padding: 0;
+    }
+    .hero__text1{
+        margin: 0 auto;
+      text-align: center;
+    }
+
+
+}
+@media (max-width:615px) {
+    .header__burger{
+        display: block;
+    }
+    .header__list{
+        display: none;
+    }
+}
+.header2{
+    background-color: black;
+}
